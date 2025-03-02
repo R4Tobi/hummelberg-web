@@ -1,0 +1,22 @@
+header{
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+header > img{
+    height: 125px
+}
+
+header > h1{
+    font-size: 3rem;
+    color: var(--color-primary);
+}
+
+header > h1 > img{
+    height: 50px;
+}
