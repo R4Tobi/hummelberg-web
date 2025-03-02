@@ -11,12 +11,33 @@ nav {
     z-index: 1000;
 }
 
+nav.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 2rem;
+    width: 100%;
+    position: fixed;
+    top: 4rem;
+    z-index: 1000;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
     padding: 1rem 2rem;
     height: 4rem;
+}
+
+nav.sub a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.25rem 2rem;
+    height: 2rem;
 }
 
 nav a:hover {
@@ -26,4 +47,9 @@ nav a:hover {
 nav a[href="#"] {
     background: #e2e2e2;
     color: #333;
-}   
+} 
+
+nav.sub a[href="#"] {
+    background: #b8b8b8;
+    color: #333;
+}  
